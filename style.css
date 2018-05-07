@@ -2,21 +2,38 @@ body{
     margin:0px;
 }
 
+#bodycontainer{
+    border: solid 1px orange;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+}
+
 
 nav {
     background-color: red;
-    height: 60px;
+    height: 50px;
     z-index: 10;
-   border: solid 1px black;
+    border: solid 1px black;
     top: 0px;
     margin-top: 5px;
     font-size: 30px;
+    font-family: sans-serif;
     }
 
 #nav-flex{
     display: flex;
     padding: 0px;
     list-style: none;
+    margin-top: 2px;
+
+}
+
+
+#About{
+    text-align: center;
+    margin-top: 500px
 }
 
 li{
@@ -29,17 +46,16 @@ li{
 h1 {
     font-size: 72px;
     color: white;
-    background-color: black
+    background-color: black;
+
 }
 
 
 
 h2 {
     font-size: 30px;
+   text-align: center;
 }
-
-
-
 
 
 #aboutdiv {
