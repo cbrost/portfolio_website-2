@@ -19,6 +19,32 @@ body{
     border: 1px solid red;
 }
 
+#display_images {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+#image_One{
+    width: 270px;
+    height: 200px;
+    background-color: brown
+
+}
+
+#image_Two{
+    width: 270px;
+    height: 200px;
+    background-color: brown;
+
+}
+
+#image_Three{
+    width: 270px;
+    height: 200px;
+    background-color: brown
+
+}
 
 nav {
     background-color: red;
@@ -57,9 +83,11 @@ li{
 }
 
 #Box {
-    width: 950px;
-    border: 25px solid green;
+    width: 1000px;
+    border: 1px solid green;
     bottom: 1000px;
+    margin-top: -16px
+
 
 
 }
@@ -73,9 +101,9 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+   font-size: 30px;
    text-align: center;
-   margin-top: 100px;
+   margin-top: 1000px;
 }
 
 #aboutdiv {
