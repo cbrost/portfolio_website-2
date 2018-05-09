@@ -56,6 +56,14 @@ li{
     margin-right: auto;
 }
 
+#Box {
+    width: 950px;
+    border: 25px solid green;
+    bottom: 1000px;
+
+
+}
+
 h1 {
     font-size: 72px;
     color: white;
@@ -64,16 +72,17 @@ h1 {
 
 }
 
-
-
 h2 {
     font-size: 30px;
    text-align: center;
+   margin-top: 100px;
 }
 
 #aboutdiv {
 background-color: black;
 color: white;
+margin-top: -20px;
+
 
 
 }
