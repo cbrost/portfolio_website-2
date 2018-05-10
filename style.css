@@ -28,21 +28,29 @@ body{
 #image_One{
     width: 270px;
     height: 200px;
-    background-color: brown
-
+    background-color: brown;
+    background-image: url(Screen%20Shot%202018-03-28%20at%209.40.54%20PM.png);
+    background-size: 355px;
+    background-repeat: no-repeat;
 }
 
 #image_Two{
     width: 270px;
     height: 200px;
     background-color: brown;
+    background-image: url(Screen%20Shot%202018-03-28%20at%209.45.36%20PM.png);
+    background-repeat: no-repeat;
+    background-size: 355px;
 
 }
 
 #image_Three{
     width: 270px;
     height: 200px;
-    background-color: brown
+    background-color: brown;
+    background-image: url(Screen%20Shot%202018-03-28%20at%209.49.44%20PM.png);
+    background-repeat: no-repeat;
+    background-size: 355px;
 
 }
 
@@ -110,9 +118,6 @@ h2 {
 background-color: black;
 color: white;
 margin-top: -20px;
-
-
-
 }
 
 #About
