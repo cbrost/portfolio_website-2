@@ -8,6 +8,7 @@ body{
     position: absolute;
     left: 50%;
     margin-left: -500px;
+    background-color: red;
 }
 
 #headerimage{
@@ -111,6 +112,7 @@ h2 {
     height: 600px;
     background-color: brown;
     margin-top: 20px;
+
 }
 
 #The_Shoe_Caper_Box {
@@ -132,16 +134,41 @@ h2 {
 #The_Three_Stoodents_Box {
     position: relative;
     width: 100%;
-    padding: 10px;
+    padding: 2px;
     border: 2px solid gray;
     height: 700px;
 }
 
-#video_holder_3 {
+#video_holder_3{
+  width: 100%;
+  height: 600px;
+  backgrouq:     ;nd-color: brown;
+  margin-top: 20px;
+}
+
+#Crazy_Wheels_Box{
+  position: relative;
+  width: 100%;
+  padding: 2px;
+  border: 2px solid gray;
+  height: 700px;
+  background-color: red;
+}
+
+#video_holder_4{
   width: 100%;
   height: 600px;
   background-color: brown;
   margin-top: 20px;
+}
+
+#Diggity_Dog_Days_Box{
+  position: relative;
+  width: 100%;
+  padding: 2px;
+  border: 2px solid gray;
+  height: 700px;
+  background-color: red;
 }
 
 #aboutdiv {
