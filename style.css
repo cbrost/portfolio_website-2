@@ -11,6 +11,13 @@ body{
     background-color: red;
 }
 
+#Logo{
+position: absolute;
+width: 1000px;
+margin-top: -580px;
+margin-left: 100px;
+}
+
 #headerimage{
     width: 1000px;
     height: 600px;
@@ -51,7 +58,6 @@ body{
     background-image: url(Screen%20Shot%202018-03-28%20at%209.49.44%20PM.png);
     background-repeat: no-repeat;
     background-size: 355px;
-
 }
 
 nav {
@@ -73,7 +79,6 @@ nav {
     margin-top: 2px;
 
 }
-
 
 #About{
     text-align: center;
