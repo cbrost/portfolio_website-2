@@ -1,14 +1,28 @@
 body{
     margin:0px;
+    background-color: black
 }
 
 #bodycontainer{
-    border: solid 1px orange;
     max-width: 1000px;
     position: absolute;
     left: 50%;
     margin-left: -500px;
     background-color: red;
+}
+
+.Logo:hover{
+  position: relative;
+  -moz-transition-property: background-color, color;
+  -moz-transition-duration: 1s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  background-color:white;
+  -moz-box-shadow: 2px 2px 1px black;
+    color: black;
 }
 
 #Logo{
@@ -23,8 +37,8 @@ margin-left: 100px;
     height: 600px;
     background-image: url('DSC_0050.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border: 1px solid red;
+    background-size: 100%;
+
 }
 
 #display_images {
@@ -123,7 +137,6 @@ h2 {
 #The_Shoe_Caper_Box {
     position: relative;
     width: 100%;
-    border: 2px solid purple;
 /*    margin-top: -60px;*/
     height: 700px;
 /*    background-color: beige*/
@@ -139,23 +152,19 @@ h2 {
 #The_Three_Stoodents_Box {
     position: relative;
     width: 100%;
-    padding: 2px;
-    border: 2px solid gray;
     height: 700px;
 }
 
 #video_holder_3{
   width: 100%;
   height: 600px;
-  backgrouq:     ;nd-color: brown;
+  background-color: brown;
   margin-top: 20px;
 }
 
 #Crazy_Wheels_Box{
   position: relative;
   width: 100%;
-  padding: 2px;
-  border: 2px solid gray;
   height: 700px;
   background-color: red;
 }
@@ -170,8 +179,6 @@ h2 {
 #Diggity_Dog_Days_Box{
   position: relative;
   width: 100%;
-  padding: 2px;
-  border: 2px solid gray;
   height: 700px;
   background-color: red;
 }
